@@ -1,0 +1,16 @@
+.btn_inactive {
+  background-color: blue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+}
+
+.btn_active {
+  background-color: red;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
