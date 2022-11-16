@@ -17,42 +17,55 @@ import TravelPlan from "./sandbox/state_examples/2_choosing_state_structure/Trav
 function App() {
   return (
     <Fragment>
-      <h3>Toggle Button - 1</h3>
-      <ToggleButtons label="Notifications" />
-      <ToggleButtons label="Subscribe" />
-      <br />
-      <h3>Toggle Button - State/Style</h3>
-      <ToggleButtons2 />
-      <br />
-      <h3>State Button 1 - Counter</h3>
-      <StateButton />
-      <br />
-      <h3>State Button 2 - Single Attribute</h3>
-      <StateButton2 />
-      <br />
-      <h3>State Button 3 - Multiple Attributes</h3>
-      <StateButton3 />
-      <br />
-      <h3>State Button 4 - State Style Change</h3>
-      <StateButton4 />
-      <br />
-      <h3>State Example - Form Submit</h3>
-      <FormSubmit />
-      <br />
-      <h3>State Example - Feedback Form</h3>
-      <FeedbackForm />
-      <br />
-      <h3>State Example - Form Submit 2</h3>
-      <FormSubmit2 />
-      <br />
-      <h3>State Example - Moving Dot</h3>
-      <MovingDot />
-      <br />
-      <h3>State Example - Menu</h3>
-      <Menu />
-      <br />
-      <h3>State Example - Travel Plan</h3>
-      <TravelPlan />
+      <div>
+        <h1>React State Examples</h1>
+        <div>
+          <h2>Section 1 - Reacting to Input with State</h2>
+          <h3>Form Submit</h3>
+          <FormSubmit />
+          <br />
+        </div>
+        <div>
+          <h2>Section 2 - Choosing the State Structure</h2>
+          <h3>Feedback Form</h3>
+          <FeedbackForm />
+          <br />
+          <h3>Feedback Form 2</h3>
+          <FormSubmit2 />
+          <br />
+          <h3>Moving Dot</h3>
+          <MovingDot />
+          <br />
+          <h3>Menu</h3>
+          <Menu />
+          <br />
+          <h3>Travel Plan</h3>
+          <TravelPlan />
+        </div>
+
+        <div>
+          <h2>State Button Examples</h2>
+          <h3>Toggle Button - 1</h3>
+          <ToggleButtons label="Notifications" />
+          <ToggleButtons label="Subscribe" />
+          <br />
+          <h3>Toggle Button - State/Style</h3>
+          <ToggleButtons2 />
+          <br />
+          <h3>State Button 1 - Counter</h3>
+          <StateButton />
+          <br />
+          <h3>State Button 2 - Single Attribute</h3>
+          <StateButton2 />
+          <br />
+          <h3>State Button 3 - Multiple Attributes</h3>
+          <StateButton3 />
+          <br />
+          <h3>State Button 4 - State Style Change</h3>
+          <StateButton4 />
+          <br />
+        </div>
+      </div>
     </Fragment>
   );
 }
