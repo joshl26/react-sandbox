@@ -1,10 +1,11 @@
+import { Fragment } from "react";
+
 import logo from "./logo.svg";
 import "./App.css";
 import ToggleButtons from "./sandbox/toggle_buttons/ToggleButtons";
 import ToggleButtons2 from "./sandbox/state_examples/state_button_examples/ToggleButtons2";
 import StateButton from "./sandbox/state_examples/state_button_examples/StateButton";
 import StateButton2 from "./sandbox/state_examples/state_button_examples/StateButton2";
-import { Fragment } from "react";
 import StateButton3 from "./sandbox/state_examples/state_button_examples/StateButton3";
 import StateButton4 from "./sandbox/state_examples/state_button_examples/StateButton4";
 import FormSubmit from "./sandbox/state_examples/1_reacting_to_input/FormSubmit";
@@ -13,11 +14,29 @@ import FormSubmit2 from "./sandbox/state_examples/2_choosing_state_structure/For
 import MovingDot from "./sandbox/state_examples/2_choosing_state_structure/MovingDot";
 import Menu from "./sandbox/state_examples/2_choosing_state_structure/Menu";
 import TravelPlan from "./sandbox/state_examples/2_choosing_state_structure/TravelPlan";
+import Accordion from "./sandbox/state_examples/3_components_sharing_state/Accordion";
+import FirstComponent from "./sandbox/describing_the_ui/FirstComponent";
+import ImportExportComponent from "./sandbox/describing_the_ui/ImportExportComponent";
 
 function App() {
   return (
     <Fragment>
       <div>
+        <h1>React Describing The UI</h1>
+        <div>
+          <h2>Section 1 - Youre First Component</h2>
+          <FirstComponent />
+          <br />
+          <h2>Section 2 - Importing and Exporting Components</h2>
+          <ImportExportComponent />
+          <h2>Section 3 - Writing Markup with JSX</h2>
+          <h2>Section 4 - Javascript in JSX with Curly Braces</h2>
+          <h2>Section 5 - Passing Props to a Component</h2>
+          <h2>Section 6 - Conditional Rendering</h2>
+          <h2>Section 7 - Javascript in JSX with Curly Braces</h2>
+          <h2>Section 8 - Passing Props to a Component</h2>
+        </div>
+
         <h1>React State Examples</h1>
         <div>
           <h2>Section 1 - Reacting to Input with State</h2>
@@ -42,7 +61,10 @@ function App() {
           <h3>Travel Plan</h3>
           <TravelPlan />
         </div>
-
+        <div>
+          <h2>Section 3 - Sharing State Between Components</h2>
+          <Accordion />
+        </div>
         <div>
           <h2>State Button Examples</h2>
           <h3>Toggle Button - 1</h3>
