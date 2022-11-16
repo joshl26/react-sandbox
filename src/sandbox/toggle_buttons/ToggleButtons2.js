@@ -1,25 +1,40 @@
+import { useState, Fragment } from "react";
 import classes from "./ToggleButton2.module.css";
-import { useState } from "react";
-
-const updateState = (props) => {
-  console.log(props.target.label);
-};
 
 const ToggleButtons2 = () => {
+  const [active, setActive] = useState("");
+
+  const handleClick = (event) => {
+    setActive(event.target.id);
+  };
+
   return (
-    <div className={classes.container}>
+    <div>
       <button
-        label="one"
-        onClick={updateState}
-        className={classes.btn_inactive}
+        key={1}
+        className={active === "1" ? `${classes.active}` : undefined}
+        id={"1"}
+        onClick={handleClick}
       >
-        One
+        Solution
       </button>
-      <button onClick={updateState} className={classes.btn_inactive}>
-        Two
+
+      <button
+        key={2}
+        className={active === "2" ? `${classes.active}` : undefined}
+        id={"2"}
+        onClick={handleClick}
+      >
+        By
       </button>
-      <button onClick={updateState} className={classes.btn_inactive}>
-        Three
+
+      <button
+        key={3}
+        className={active === "3" ? `${classes.active}` : undefined}
+        id={"3"}
+        onClick={handleClick}
+      >
+        Jamal
       </button>
     </div>
   );
