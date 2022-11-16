@@ -17,6 +17,10 @@ import TravelPlan from "./sandbox/state_examples/2_choosing_state_structure/Trav
 import Accordion from "./sandbox/state_examples/3_components_sharing_state/Accordion";
 import FirstComponent from "./sandbox/describing_the_ui/FirstComponent";
 import ImportExportComponent from "./sandbox/describing_the_ui/ImportExportComponent";
+import WritingMarkupJSX from "./sandbox/describing_the_ui/WritingMarkupJSX";
+import JavascriptJSXCurlyBraces from "./sandbox/describing_the_ui/JavascriptJSXCurlyBraces";
+import PassingPropsToComponent from "./sandbox/describing_the_ui/PassingPropsToComponent";
+import PassingJSXAsChildren from "./sandbox/describing_the_ui/PassingJSXAsChildren";
 
 function App() {
   return (
@@ -30,8 +34,14 @@ function App() {
           <h2>Section 2 - Importing and Exporting Components</h2>
           <ImportExportComponent />
           <h2>Section 3 - Writing Markup with JSX</h2>
+          <WritingMarkupJSX />
           <h2>Section 4 - Javascript in JSX with Curly Braces</h2>
-          <h2>Section 5 - Passing Props to a Component</h2>
+          <JavascriptJSXCurlyBraces />
+          <h2>Section 5A - Passing Props to a Component</h2>
+          <PassingPropsToComponent />
+          <h2>Section 5B - Passing JSX as Children</h2>
+          <PassingJSXAsChildren />
+
           <h2>Section 6 - Conditional Rendering</h2>
           <h2>Section 7 - Javascript in JSX with Curly Braces</h2>
           <h2>Section 8 - Passing Props to a Component</h2>
