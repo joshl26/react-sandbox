@@ -1,18 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ToggleButtons from "./sandbox/toggle_buttons/ToggleButtons";
-import ToggleButtons2 from "./sandbox/state_examples/ToggleButtons2";
-import StateButton from "./sandbox/state_examples/StateButton";
-import StateButton2 from "./sandbox/state_examples/StateButton2";
+import ToggleButtons2 from "./sandbox/state_examples/state_button_examples/ToggleButtons2";
+import StateButton from "./sandbox/state_examples/state_button_examples/StateButton";
+import StateButton2 from "./sandbox/state_examples/state_button_examples/StateButton2";
 import { Fragment } from "react";
-import StateButton3 from "./sandbox/state_examples/StateButton3";
-import StateButton4 from "./sandbox/state_examples/StateButton4";
+import StateButton3 from "./sandbox/state_examples/state_button_examples/StateButton3";
+import StateButton4 from "./sandbox/state_examples/state_button_examples/StateButton4";
 import FormSubmit from "./sandbox/state_examples/1_reacting_to_input/FormSubmit";
-import FeedbackForm from "./sandbox/state_examples/FeedBackForm";
-import FormSubmit2 from "./sandbox/state_examples/FormSubmit2";
-import MovingDot from "./sandbox/state_examples/MovingDot";
-import Menu from "./sandbox/state_examples/Menu";
-import TravelPlan from "./sandbox/state_examples/TravelPlan";
+import FeedbackForm from "./sandbox/state_examples/2_choosing_state_structure/FeedBackForm";
+import FormSubmit2 from "./sandbox/state_examples/2_choosing_state_structure/FormSubmit2";
+import MovingDot from "./sandbox/state_examples/2_choosing_state_structure/MovingDot";
+import Menu from "./sandbox/state_examples/2_choosing_state_structure/Menu";
+import TravelPlan from "./sandbox/state_examples/2_choosing_state_structure/TravelPlan";
 
 function App() {
   return (
