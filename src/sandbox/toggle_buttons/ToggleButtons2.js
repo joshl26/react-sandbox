@@ -9,7 +9,7 @@ const ToggleButtons2 = () => {
   };
 
   return (
-    <div>
+    <div className={classes.container}>
       <button
         key={1}
         className={active === "1" ? `${classes.active}` : undefined}

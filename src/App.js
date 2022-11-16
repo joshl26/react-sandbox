@@ -15,7 +15,7 @@ function App() {
       <ToggleButtons label="Notifications" />
       <ToggleButtons label="Subscribe" />
       <br />
-      <h3>Toggle Button - 2</h3>
+      <h3>Toggle Button - State/Style </h3>
       <ToggleButtons2 />
       <br />
       <h3>State Button 1 - Counter</h3>
@@ -24,7 +24,7 @@ function App() {
       <StateButton2 />
       <h3>State Button 3 - Multiple Attributes</h3>
       <StateButton3 />
-      <h3>State Button 4 - Multiple Attributes</h3>
+      <h3>State Button 4 - State Style Change</h3>
       <StateButton4 />
     </Fragment>
   );
