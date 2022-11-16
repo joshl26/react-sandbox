@@ -26,13 +26,22 @@ import RenderingLists from "./sandbox/describing_the_ui/RenderingLists";
 import PureComponent from "./sandbox/describing_the_ui/PureComponent";
 import UnpureComponent from "./sandbox/describing_the_ui/UnpureComponent";
 import PureComponent2 from "./sandbox/describing_the_ui/PureComponent2";
+import RespondingToEvents from "./sandbox/adding_interactivity/RespondingToEvents";
+import ReadingPropsEventHandler from "./sandbox/adding_interactivity/ReadingPropsEventHandler";
+import PassingEventHandlersAsProps from "./sandbox/adding_interactivity/PassingEventHandlersAsProps";
+import NamingEventHandlerProps from "./sandbox/adding_interactivity/NamingEventHandlerProps";
+import EventPropagation from "./sandbox/adding_interactivity/EventPropagation";
+import StoppingPropagation from "./sandbox/adding_interactivity/StoppingPropagation";
+import PreventingDefaultBehaviour from "./sandbox/adding_interactivity/PreventingDefaultBehaviour";
+import MultipleStateComponent from "./sandbox/adding_interactivity/MultipleStateComponent";
 
 function App() {
   return (
     <Fragment>
       <div>
-        <h1>React Describing The UI</h1>
+        <h1>React Docs</h1>
         <div>
+          <h1>Chapter 1 - React Describing The UI</h1>
           <h2>Section 1 - Youre First Component</h2>
           <FirstComponent />
           <br />
@@ -58,27 +67,51 @@ function App() {
           <PureComponent2 />
         </div>
 
-        <h1>React State Examples</h1>
         <div>
+          <h1>Chapter 2 - Adding Interactivity</h1>
+          <h2>Section 1 - Adding Event Handlers</h2>
+          <RespondingToEvents />
+          <h2>Section 2 - Reading Props in Event Handlers</h2>
+          <ReadingPropsEventHandler />
+          <h2>Section 3 - Passing event handlers as props</h2>
+          <PassingEventHandlersAsProps />
+          <h2>Section 4 - Naming Event Handler Props</h2>
+          <NamingEventHandlerProps />
+          <h2>Section 5 - Event Propagation</h2>
+          <EventPropagation />
+          <h2>Section 6 - Stopping Propagation</h2>
+          <StoppingPropagation />
+          <h2>Section 7 - Preventing Default Behaviour</h2>
+          <PreventingDefaultBehaviour />
+          <h2>Section 8 - Giving a component multiple state variables</h2>
+          <MultipleStateComponent />
+        </div>
+
+        <div>
+          <h1>Chapter 3 - React State Examples</h1>
+
           <h2>Section 1 - Reacting to Input with State</h2>
           <h3>Form Submit</h3>
           <FormSubmit />
           <br />
-        </div>
-        <div>
+
           <h2>Section 2 - Choosing the State Structure</h2>
           <h3>Feedback Form</h3>
           <FeedbackForm />
           <br />
+
           <h3>Feedback Form 2</h3>
           <FormSubmit2 />
           <br />
+
           <h3>Moving Dot</h3>
           <MovingDot />
           <br />
+
           <h3>Menu</h3>
           <Menu />
           <br />
+
           <h3>Travel Plan</h3>
           <TravelPlan />
         </div>
