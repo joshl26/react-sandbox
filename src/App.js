@@ -21,6 +21,11 @@ import WritingMarkupJSX from "./sandbox/describing_the_ui/WritingMarkupJSX";
 import JavascriptJSXCurlyBraces from "./sandbox/describing_the_ui/JavascriptJSXCurlyBraces";
 import PassingPropsToComponent from "./sandbox/describing_the_ui/PassingPropsToComponent";
 import PassingJSXAsChildren from "./sandbox/describing_the_ui/PassingJSXAsChildren";
+import ConditionalRendering from "./sandbox/describing_the_ui/ConditionalRendering";
+import RenderingLists from "./sandbox/describing_the_ui/RenderingLists";
+import PureComponent from "./sandbox/describing_the_ui/PureComponent";
+import UnpureComponent from "./sandbox/describing_the_ui/UnpureComponent";
+import PureComponent2 from "./sandbox/describing_the_ui/PureComponent2";
 
 function App() {
   return (
@@ -41,10 +46,16 @@ function App() {
           <PassingPropsToComponent />
           <h2>Section 5B - Passing JSX as Children</h2>
           <PassingJSXAsChildren />
-
           <h2>Section 6 - Conditional Rendering</h2>
-          <h2>Section 7 - Javascript in JSX with Curly Braces</h2>
-          <h2>Section 8 - Passing Props to a Component</h2>
+          <ConditionalRendering />
+          <h2>Section 7 - Rendering Lists</h2>
+          <RenderingLists />
+          <h2>Section 8A - Unpure Components</h2>
+          <UnpureComponent />
+          <h2>Section 8B - Keeping Components Pure</h2>
+          <PureComponent />
+          <h2>Section 8C - Local Mutation: Your components little secret</h2>
+          <PureComponent2 />
         </div>
 
         <h1>React State Examples</h1>
