@@ -34,6 +34,17 @@ import EventPropagation from "./sandbox/adding_interactivity/EventPropagation";
 import StoppingPropagation from "./sandbox/adding_interactivity/StoppingPropagation";
 import PreventingDefaultBehaviour from "./sandbox/adding_interactivity/PreventingDefaultBehaviour";
 import MultipleStateComponent from "./sandbox/adding_interactivity/MultipleStateComponent";
+import StateIsolatedAndPrivate from "./sandbox/adding_interactivity/StateIsIsolatedAndPrivate";
+import SettingStateTriggersRender from "./sandbox/adding_interactivity/SettingStateTriggersRenders";
+import CopyingObjectsWithSpread from "./sandbox/adding_interactivity/CopyingObjectsWithSpread";
+import UpdatingNestedObject from "./sandbox/adding_interactivity/UpdatingNestedObject";
+import UpdatingArraysInState from "./sandbox/adding_interactivity/UpdatingArraysInState";
+import RemovingFromAnArray from "./sandbox/adding_interactivity/RemovingFromAnArray";
+import TransformingAnArray from "./sandbox/adding_interactivity/TransformingAnArray";
+import ReplacingItemsInArray from "./sandbox/adding_interactivity/ReplacingItemsInArray";
+import InsertingIntoArray from "./sandbox/adding_interactivity/InsertingIntoAnArray";
+import MakingOtherChangesToArray from "./sandbox/adding_interactivity/MakingOtherChangesToArray";
+import UpdateObjectInArray from "./sandbox/adding_interactivity/UpdateObjectInArray";
 
 function App() {
   return (
@@ -85,6 +96,28 @@ function App() {
           <PreventingDefaultBehaviour />
           <h2>Section 8 - Giving a component multiple state variables</h2>
           <MultipleStateComponent />
+          <h2>Section 9 - State Isolated and Private</h2>
+          <StateIsolatedAndPrivate />
+          <h2>Section 10 - Setting State Triggers Renders</h2>
+          <SettingStateTriggersRender />
+          <h2>Section 11 - Copying objects with spread</h2>
+          <CopyingObjectsWithSpread />
+          <h2>Section 12 - Updating a nested Object</h2>
+          <UpdatingNestedObject />
+          <h2>Section 13 - Updating Arrays in State</h2>
+          <UpdatingArraysInState />
+          <h2>Section 14 - Removing From Array</h2>
+          <RemovingFromAnArray />
+          <h2>Section 15 - Transforming an Array</h2>
+          <TransformingAnArray />
+          <h2>Section 16 - Replacing Items In An Array</h2>
+          <ReplacingItemsInArray />
+          <h2>Inserting Into an Array</h2>
+          <InsertingIntoArray />
+          <h2>Making other changes to an array</h2>
+          <MakingOtherChangesToArray />
+          <h2>Update object in Array</h2>
+          <UpdateObjectInArray />
         </div>
 
         <div>
