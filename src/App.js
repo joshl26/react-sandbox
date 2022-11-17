@@ -45,8 +45,14 @@ import ReplacingItemsInArray from "./sandbox/adding_interactivity/ReplacingItems
 import InsertingIntoArray from "./sandbox/adding_interactivity/InsertingIntoAnArray";
 import MakingOtherChangesToArray from "./sandbox/adding_interactivity/MakingOtherChangesToArray";
 import UpdateObjectInArray from "./sandbox/adding_interactivity/UpdateObjectInArray";
+import CountdownTimer from "./sandbox/custom_hooks/countdown_timer/CountDownTimer";
 
 function App() {
+  const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
+  const NOW_IN_MS = new Date().getTime();
+
+  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
+
   return (
     <Fragment>
       <div>
@@ -121,30 +127,34 @@ function App() {
         </div>
 
         <div>
-          <h1>Chapter 3 - React State Examples</h1>
+          <br />
+          <br />
+          <h1>Custom Hooks</h1>
+          <h2>Countdown Timer</h2>
+          <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+        </div>
 
+        <div>
+          <br />
+          <br />
+          <h1>Chapter 3 - React State Examples</h1>
           <h2>Section 1 - Reacting to Input with State</h2>
           <h3>Form Submit</h3>
           <FormSubmit />
           <br />
-
           <h2>Section 2 - Choosing the State Structure</h2>
           <h3>Feedback Form</h3>
           <FeedbackForm />
           <br />
-
           <h3>Feedback Form 2</h3>
           <FormSubmit2 />
           <br />
-
           <h3>Moving Dot</h3>
           <MovingDot />
           <br />
-
           <h3>Menu</h3>
           <Menu />
           <br />
-
           <h3>Travel Plan</h3>
           <TravelPlan />
         </div>
